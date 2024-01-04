@@ -8,7 +8,7 @@ contract LibraryMathEchidna {
   bool isSetup;
 
   function setupReserve() private {
-    //setup
+    //setup here
     reserve.reserveRisky = 1 ether;
     reserve.reserveStable = 2 ether;
     reserve.liquidity = 3 ether;
